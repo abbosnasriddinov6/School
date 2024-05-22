@@ -11,9 +11,12 @@ const Header = () => {
               <img src={logo} alt="" />
             </div>
             <ul>
-              <li>Nma uchun biz?</li>
-              <li>Narxlar</li>
+              <li>Maktab haqida</li>
               <li>Stipendiyalar</li>
+              <li>Narxlar</li>
+              <li>Qabuk Jarayoni</li>
+              <li>Bog'lanish</li>
+              <li>Portal</li>
             </ul>
             <div className='buttons'>
               <button className='button1'>+998 93 596 05 06</button>
