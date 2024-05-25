@@ -2,6 +2,7 @@ import React from 'react'
 import './Home.scss'
 import Header from '../../components/header/Header'
 import Section3 from '../../components/section3/Section3'
+import Section4 from '../../components/section4/Section4'
 const Home = () => {
   return (
     <div>
@@ -19,6 +20,7 @@ const Home = () => {
         </div>
       </div>
       <Section3/>
+      <Section4/>
     </div>
   )
 }
