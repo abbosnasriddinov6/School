@@ -3,24 +3,33 @@ import './Home.scss'
 import Header from '../../components/header/Header'
 import Section3 from '../../components/section3/Section3'
 import Section4 from '../../components/section4/Section4'
+import Section7 from '../../components/section7/Section7'
+import Section8 from '../../components/section8/Section8'
+import Section12 from '../../components/section12/Section12'
 const Home = () => {
   return (
     <div>
       <Header />
       <div className='Section1'>
-        <div className="container">
-          <div className='background'>
-            <div className='lesson'>
-              <div className="lesson1">
-                <h1>Drasni kichik "yumordan" boshlayman</h1>
+        <div className="div">
+          <div className="container">
+            <div className='background'>
+              <h1>Farzandingiz iste’dodini <span>kashf qilamiz</span></h1>
+              <h4>Birinchi kundanoq farzandingizning iste’dodi qaysi yo’nalishdaligini tekshiramiz: <span>kreativ, analitik yoki ishbilarmon</span></h4>
+              <div className='blar'>
+                <button className='ariza'>Ariza topshirish</button>
+                <button className='batafsil'>Batafsil</button>
               </div>
             </div>
-            <button className='button3'>Ariza topshirish</button>
           </div>
         </div>
+
       </div>
-      <Section3/>
-      <Section4/>
+      {/* <Section12/> */}
+      {/* <Section3/> */}
+      {/* <Section8/> */}
+      {/* <Section4 /> */}
+      {/* <Section7/> */}
     </div>
   )
 }
