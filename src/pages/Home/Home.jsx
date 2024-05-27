@@ -25,9 +25,9 @@ const Home = () => {
         </div>
 
       </div>
-      {/* <Section12/> */}
       {/* <Section3/> */}
-      {/* <Section8/> */}
+      <Section8/>
+      <Section12/>
       {/* <Section4 /> */}
       {/* <Section7/> */}
     </div>
