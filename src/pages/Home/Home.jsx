@@ -7,6 +7,9 @@ import Section7 from '../../components/section7/Section7'
 import Section8 from '../../components/section8/Section8'
 import Section12 from '../../components/section12/Section12'
 import Section13 from '../../components/section13/Section13'
+import SFooter from "../../components/footer/SFooter.jsx";
+
+
 const Home = () => {
   return (
     <div>
@@ -32,6 +35,7 @@ const Home = () => {
       {/* <Section4 /> */}
       {/* <Section7/> */}
       <Section13/>
+        <SFooter/>
     </div>
   )
 }
