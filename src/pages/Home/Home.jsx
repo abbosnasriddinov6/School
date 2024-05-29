@@ -7,9 +7,15 @@ import Section7 from '../../components/section7/Section7'
 import Section8 from '../../components/section8/Section8'
 import Section12 from '../../components/section12/Section12'
 import Section13 from '../../components/section13/Section13'
+<<<<<<< HEAD
 import Qabul from '../../components/qabuljarayoni/Qabul'
 import Stipendiya2 from '../../components/stipendiay2/Stipendiya2'
 import Infra from '../../components/infratuzilma/Infra'
+=======
+import SFooter from "../../components/footer/SFooter.jsx";
+
+
+>>>>>>> 515ed4e636941c41aa147b5ef5677bc900e81013
 const Home = () => {
   return (
     <div>
@@ -35,9 +41,13 @@ const Home = () => {
       <Section4 />
       <Section7/>
       <Section13/>
+<<<<<<< HEAD
       <Qabul/>
       <Stipendiya2/>
       <Infra/>
+=======
+        <SFooter/>
+>>>>>>> 515ed4e636941c41aa147b5ef5677bc900e81013
     </div>
   )
 }
