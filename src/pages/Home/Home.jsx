@@ -7,6 +7,7 @@ import Section7 from '../../components/section7/Section7'
 import Section8 from '../../components/section8/Section8'
 import Section12 from '../../components/section12/Section12'
 import Section13 from '../../components/section13/Section13'
+import Qabul from '../../components/qabuljarayoni/Qabul'
 const Home = () => {
   return (
     <div>
@@ -31,7 +32,8 @@ const Home = () => {
       {/* <Section12/> */}
       {/* <Section4 /> */}
       {/* <Section7/> */}
-      <Section13/>
+      {/* <Section13/> */}
+      <Qabul/>
     </div>
   )
 }
