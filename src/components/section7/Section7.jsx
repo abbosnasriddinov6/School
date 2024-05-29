@@ -45,6 +45,26 @@ const Section7 = () => {
                             </div>
                         </div>
                     </div>
+                    <div className="section77">
+                        <div className="narx1">
+                            <h1>Stipendiyalar</h1>
+                        </div>
+                        <div className='boshlab'>
+                            <div className="div11">
+                                <div className="boshlab1">
+                                    <p>5-sinfdan boshlab har oylik moddiy qo'llab-quvvatlov o'quvchilarning mustaqil bo'lib o'sishlari, moliyaviy savodxonliklarini oshirishlari va maktabda arzonroq o'qishlariga yordam beradi.</p>
+                                    <p>Stipendiya o'quvchining shaxsiy kartasiga o'tkazib beriladi va uni o'quvchi o'zi hohlagancha tasarruf qilishi mumkin. IELTS va SAT sertifikatiga ega o'quvchilar <span>deyarli bepulga o'qishadi.</span></p>
+                                </div>
+                            </div>
+                            <div className="div12"></div>
+                        </div>
+                        <div className="tolov">
+                            <div className="sariq">
+                                <h1>Stipendiyalar, to'lov summalari va qo'shimcha qulayliklar haqida batafsil tanishing</h1>
+                                <button>Batafsil</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </>
